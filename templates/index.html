@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> ML API</title>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Martel:wght@800&family=Sora:wght@200&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <h1 style="font-family:Mulish; text-align:center">Salary Detector</h1>
+</head>
+<body>
+  <div class="login" style="display:flex; justify-content:center; text-align:center;" >
+    <form action="{{ url_for('predict')}}" method ="post">
+    <h3 style="font-family:Sora">Experience</h3>
+    <input type="text" name="experience"/><br>
+    <h3 style="font-family:Sora">Test_Score</h3>
+    <input type="text" name="test_score"/><br>
+    <h3 style="font-family:Sora">Interview_Score</h3>
+    <input type = "text" name="interview_score"/><br>
+    <button type="submit" >PREDICT</button>
+    </form>
+  </div>
+</body>
+</html>
