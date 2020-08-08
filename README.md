@@ -1,7 +1,7 @@
 # Heroku-App
 Machine Learning Program which predicts salary upon providing personal specifications
 
-# To run in localhost
+# To run on localhost
 
 First run 
 
